@@ -7,19 +7,19 @@
 ####
 #####  */
 
-function poluPiramida (visina) {
+function MarioPiramida (n) {
 
-    for (var i = 1; i <= visina; i++) 
+    for (var i = 1; i <= n; i++) 
     {
-      var red = '';
+      var p = '';
 
       for (var j = 1; j <= i; j++) 
         {
-        red += '#'; 
+        p += '#'; 
         }
   
-      console.log(red);
+      console.log(p);
     }
   }
   
-  poluPiramida(5);
+  MarioPiramida(5);
