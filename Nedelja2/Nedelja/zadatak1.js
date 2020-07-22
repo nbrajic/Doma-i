@@ -8,7 +8,8 @@
     let r = precnik / 2;
     let P;
     P = r * r * Math.PI;
-    switch (precnik) {
+    switch (precnik) 
+    {
         case 28:
         cena = 580; 
         console.log ("Cena pice po cm² je: " + cena / P + " rsd/cm².");
@@ -26,5 +27,6 @@
         console.log ("Cena pice po cm² je: " + cena / P + " rsd/cm².");
         break;
         default:
-        console.log ("U ponudi ne postoji pica sa zadatim prečnikom. Izaberite neku od standardnih vrednosti - 28 cm, 32 cm, 42 cm ili 50 cm.") }  
+        console.log ("U ponudi ne postoji pica sa zadatim prečnikom. Izaberite neku od standardnih vrednosti - 28 cm, 32 cm, 42 cm ili 50 cm.") 
+    }  
 }
