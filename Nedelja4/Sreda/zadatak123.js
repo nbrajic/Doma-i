@@ -50,8 +50,9 @@ console.log(array)
 function allAbilities() {
     let array2 = []
     array.map((pokemons) => {array2.push(pokemons.abilities)})
-    console.log(array2)
-    return array2
+    let array3 = array2.flat(Infinity)
+    console.log(array3)
+    return array3
 } 
 
 allAbilities()
@@ -61,14 +62,14 @@ allAbilities()
 // Сортирати покемоне по брзини, растуће.
 
 function allSpeeds() {
-    let array3 = []
+    // let array3 = []
     array.sort((a,b) => a.characteristics.speed - b.characteristics.speed)
-    array.map((pokemons) => {
-        let str = pokemons.name + ' : ' + pokemons.characteristics.speed
-        array3.push(str)
-    })
-        console.log(array3)
-        return array3     
+    // array.map((pokemons) => {
+    //     let str = pokemons.name + ' : ' + pokemons.characteristics.speed
+    //     array3.push(str)
+    // })
+        console.log(array)
+        return array    
 }
 
 allSpeeds()
