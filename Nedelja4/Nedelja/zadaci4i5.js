@@ -27,7 +27,7 @@ let Eevee = {
     type: 'Normal',
     abilities: ['Run Away', 'Adaptability'],
     characteristics: { attack: 40, defense: 40, speed: 40 },
-    photo: 'https://lh3.googleusercontent.com/proxy/gGJ6mplzDwQyWFZX2W8gUavkFdxOfS6yx97iUI5wIM8aWP-OP7oi3Xq-_GhDMEHiInvdI8AV4Nu2F26EUH4fLrY0vz3lNcoK5Le2xwsIaekyeo7MUqyirkU8pAXBHWkyTvfo9ZLd5T_M'
+    photo: 'https://static.pokemonpets.com/images/monsters-images-800-800/133-Eevee.png'
 }
 
 let array = [Noctowl, Vulpix, Eevee, Raichu]
