@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <script base href="http://localhost:4000/src/index.js"></script>
+    <title>Budget app</title>
+</head>
+
+<body>
+  
+    <div id="top">
+      <div class="budget">
+        <span id="title"></span>
+        <span id="current">0 RSD</span>
+      </div>
+
+      <div id="top-container">
+    
+      <div class="income clearfix">
+        <div class="income-text">INCOME</div>
+        <div class="right">
+          <div class="income-value"></div>
+          <div class="income-percentage"></div>
+        </div>
+      </div>
+
+      <div class="expenses clearfix">
+        <div class="expenses-text">EXPENSES</div>
+        <div class="right">
+          <div class="expenses-value"></div> 
+          <div class="expenses-percentage">--</div>
+        </div>
+      </div>
+
+      </div>
+
+    </div>
+
+    <div id="input-part">
+
+      <div class="add-container">
+      <div>
+        <select class="add-type">
+          <option value="income"> + </option>
+          <option value="expense"> - </option>
+        </select>
+        <input type="text"  class="add-description" placeholder="Expense/Income description">
+      </div>
+
+      <div>
+        <input type="number" class="add-value" placeholder="Value">
+        <button class="add-btn"><span class="iconify" data-icon="ion:checkmark-circle" data-inline="false"></span></button> <!--JS-->
+      </div>
+
+    </div>
+
+    <div id='err'></div>
+
+  <div id="container">
+
+    <div class="income-div">
+      <h2 class="income-title">INCOME</h2>
+      <ul class="income-list"></ul> 
+    </div>
+
+    <div class="expenses-div">
+      <h2 class="expenses-title">EXPENSES</h2>
+      <ul class="expenses-list"></ul>
+    </div>
+
+  </div>
+
+</body>
+</html>
+
